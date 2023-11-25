@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/outputcss/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Beranda | KPUM Narotama</title>
+</head>
+<body class="bg-primary bg-cover bg-center bg-no-repeat bg-fixed font-poppins px-[20px]" style="background-image: url('../src/img/bg-primary.png');">
+    <nav class="">
+        <div class="flex p-[20px] justify-between">
+            <img src="../src/img/logo_kpum_fix.png" class="w-[190px] h-[79px]" alt="Logo NCC">
+            <button type="button" id="mobileMenuButton" class="flex my-auto" data-collapse-toggle="mobileNavbar" aria-controls="mobileNavbar" aria-expanded="false">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 12H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 6H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 18H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>    
+            </button>
+        </div>
+        <div class="hidden" id="mobileMenu">
+            <ul class="text-gray-700 bg-white rounded-[10px] p-[20px]">
+                <li>
+                  <a href="/src/home.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Beranda</a>
+                </li>
+                <li>
+                  <a href="/src/peraturan.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Surat Peraturan</a>
+                </li>
+                <li>
+                  <a href="/src/keputusan.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Surat Keputusan</a>
+                </li>
+                <li>
+                  <a href="/src/formulir.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Formulir Pendaftaran</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class= "text-white text-center my-auto flex flex-col justify-center items-center min-h-screen" data-aos="fade-down" data-aos-duration="800">
+        <div class="font-extrabold lg:text-[80px] text-[40px]">
+            FORMULIR PENDAFTARAN
+        </div>
+        <div class="lg:text-[40px] text-[20px] font-semibold">
+            Komisi Pemilihan Umum Mahasiswa
+        </div>
+    </section>
+
+    <!-- Formulir -->
+    <section class="lg:px-[80px]">
+        <div>
+            <nav class="grid grid-cols-3 w-full bg-gray-200 py-[10px] px-[10px] text-[20px] text-[#2C2C2C] font-bold rounded-[20px]">
+              <button class="tab-button py-[15px] rounded-[10px]" data-tab="tab-1">BEM - U</button>
+              <button class="tab-button py-[15px] rounded-[10px]" data-tab="tab-2">HIMA</button>
+              <button class="tab-button py-[15px] rounded-[10px]" data-tab="tab-3">UKM</button>
+            </nav>
+          </div>
+          
+          <div id="tab-1" class="tab-content bg-gray-200 p-[20px] my-[20px] rounded-[20px]">
+                <!-- FORMULIR PENDAFTARAN CALON PRESIDEN DAN WAKIL PRESIDEN BEM-U  -->
+                <section class="text-center items-center py-[20px]">
+                    <div class="text-[#2C2C2C] font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                        FORMULIR PENDAFTARAN CALON PRESIDEN DAN WAKIL PRESIDEN BEM-U
+                    </div>
+                    <div class="w-full flex justify-center items-center">
+                        <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/1Fc0iStz9Zt_kYZUvdiJiZDZmjBbCmqVs/preview" allow="autoplay"></iframe>
+                    </div>
+                </section>
+
+                <!-- FORMULIR PROGRAM KERJA BEM-U  -->
+                <section class="text-center items-center py-[20px]">
+                    <div class="text-[#2C2C2C] font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                        FORMULIR PROGRAM KERJA BEM-U
+                    </div>
+                    <div class="w-full flex justify-center items-center">
+                        <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/1VDPAJHkYC4zhT_xDlLgh_JkY44Zq3Z56/preview" allow="autoplay"></iframe>
+                    </div>
+                </section>
+
+                <!-- FORMULIR SUSUNAN PENGURUS BEM-U -->
+                <section class="text-center items-center py-[20px]">
+                    <div class="text-[#2C2C2C]  font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                        FORMULIR SUSUNAN PENGURUS BEM-U
+                    </div>
+                    <div class="w-full flex justify-center items-center">
+                        <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/1VeDjbQBgvhmVNU7WaCenoCEywA6a_b1c/preview" allow="autoplay"></iframe>
+                    </div>
+                </section>
+
+                <!-- FORMULIR VISI DAN MISI BEM-U -->
+                <section class="text-center items-center py-[20px]">
+                    <div class="text-[#2C2C2C] font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                        FORMULIR VISI DAN MISI BEM-U
+                    </div>
+                    <div class="w-full flex justify-center items-center">
+                        <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/1WKyinHrBI1Wv-fW6OZ_YBxyQ7UBc0O8f/preview" allow="autoplay"></iframe>
+                    </div>
+                </section>
+
+                <!-- SURAT PERNYATAAN CALON PRESIDEN DAN WAKIL PRESIDEN BEM-U -->
+                <section class="text-center items-center py-[20px]">
+                    <div class="text-[#2C2C2C] font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                        SURAT PERNYATAAN CALON PRESIDEN DAN WAKIL PRESIDEN BEM-U
+                    </div>
+                    <div class="w-full flex justify-center items-center">
+                        <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/194yjGTlvPYfAvQCQ-2vuwbkSF_lz_Gl6/preview" allow="autoplay"></iframe>
+                    </div>
+                </section>
+
+                <!-- TOMBOL DOWNLOAD FORM -->
+                <div class="flex justify-center mx-auto w-full text-[20px] font-medium text-blue-600"> 
+                    <a href="https://drive.google.com/drive/folders/1sbE-gcvJUnaYs9fFjWhNQ2Ojt_aBoyi4?usp=drive_link" target="_blank">Download Formulir</a>
+                </div>
+          </div>
+          <div id="tab-2" class="hidden tab-content bg-gray-200 p-[20px] my-[20px] rounded-[20px]">
+                <!-- FORMULIR PENDAFTARAN CALON KETUA DAN WAKIL KETUA HIMA  -->
+                <section class="text-center items-center py-[20px]">
+                    <div class="text-[#2C2C2C] font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                        FORMULIR PENDAFTARAN CALON KETUA DAN WAKIL KETUA HIMA
+                    </div>
+                    <div class="w-full flex justify-center items-center">
+                        <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/1bxBWvo8Oziwc2AOQCOANz1xbH_udeK72/preview" allow="autoplay"></iframe>
+                    </div>
+                </section>
+
+                <!-- FORMULIR PROGRAM KERJA HIMA -->
+                <section class="text-center items-center py-[20px]">
+                    <div class="text-[#2C2C2C] font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                        FORMULIR PROGRAM KERJA HIMA
+                    </div>
+                    <div class="w-full flex justify-center items-center">
+                        <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/1IOt89b9ZO2dngPWIZ7DHmgiZB8zEv7TJ/preview" allow="autoplay"></iframe>
+                    </div>
+                </section>
+
+                <!-- FORMULIR SUSUNAN PENGURUS HIMA -->
+                <section class="text-center items-center py-[20px]">
+                    <div class="text-[#2C2C2C]  font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                        FORMULIR SUSUNAN PENGURUS HIMA
+                    </div>
+                    <div class="w-full flex justify-center items-center">
+                        <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/1_mWOULuk8EoIKhoFA1RnuNjZKdbRUu7x/preview" allow="autoplay"></iframe>
+                    </div>
+                </section>
+
+                <!-- FORMULIR VISI DAN MISI HIMA -->
+                <section class="text-center items-center py-[20px]">
+                    <div class="text-[#2C2C2C] font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                        FORMULIR VISI DAN MISI HIMA
+                    </div>
+                    <div class="w-full flex justify-center items-center">
+                        <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/1TuaUT8vdoWOWBFeKFlS4p07bMIKIpBzB/preview" allow="autoplay"></iframe>
+                    </div>
+                </section>
+
+                <!-- SURAT PERNYATAAN CALON KETUA DAN WAKIL KETUA HIMA -->
+                <section class="text-center items-center py-[20px]">
+                    <div class="text-[#2C2C2C] font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                        SURAT PERNYATAAN CALON KETUA DAN WAKIL KETUA HIMA
+                    </div>
+                    <div class="w-full flex justify-center items-center">
+                        <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/1dSThYIMDoPWe3C6MLVRwKgsi32c4uBaU/preview" allow="autoplay"></iframe>
+                    </div>
+                </section>
+
+                <!-- TOMBOL DOWNLOAD FORM -->
+                <div class="flex justify-center mx-auto w-full text-[20px] font-medium text-blue-600"> 
+                    <a href="https://drive.google.com/drive/folders/1taJjVzqrUsVWcY7Pv2aiv_nNL5dFsg2k?usp=drive_link" target="_blank">Download Formulir</a>
+                </div>
+          </div>
+          <div id="tab-3" class="hidden tab-content bg-gray-200 p-[20px] my-[20px] rounded-[20px]">
+            <!-- FORMULIR PENDAFTARAN CALON KETUA DAN WAKIL KETUA UKM  -->
+            <section class="text-center items-center py-[20px]">
+                <div class="text-[#2C2C2C] font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                    FORMULIR PENDAFTARAN CALON KETUA DAN WAKIL KETUA UKM
+                </div>
+                <div class="w-full flex justify-center items-center">
+                    <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/1engQ1nnSJtl5e-LC9AIOVsxIlJIoxYlI/preview" allow="autoplay"></iframe>
+                </div>
+            </section>
+
+            <!-- FORMULIR PROGRAM KERJA UKM -->
+            <section class="text-center items-center py-[20px]">
+                <div class="text-[#2C2C2C] font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                    FORMULIR PROGRAM KERJA UKM
+                </div>
+                <div class="w-full flex justify-center items-center">
+                    <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/1gojRoIQSLt_j7WZeHJrBGE0ynEcK6c6D/preview" allow="autoplay"></iframe>
+                </div>
+            </section>
+
+            <!-- FORMULIR SUSUNAN PENGURUS UKM -->
+            <section class="text-center items-center py-[20px]">
+                <div class="text-[#2C2C2C]  font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                    FORMULIR SUSUNAN PENGURUS UKM
+                </div>
+                <div class="w-full flex justify-center items-center">
+                    <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/1iHbxOgWLQeHA6PrNsNR1S_Ym-0mQgGRP/preview" allow="autoplay"></iframe>
+                </div>
+            </section>
+
+            <!-- FORMULIR VISI DAN MISI UKM -->
+            <section class="text-center items-center py-[20px]">
+                <div class="text-[#2C2C2C] font-semibold lg:text-[40px] text-[20px] pb-[20px]">
+                    FORMULIR VISI DAN MISI UKM
+                </div>
+                <div class="w-full flex justify-center items-center">
+                    <iframe class="flex-1 lg:h-[1000px] h-[500px]" src="https://drive.google.com/file/d/1WIuvwwJHlksHAR-DLShk5FQL6YnqSlCC/preview" allow="autoplay"></iframe>
+                </div>
+            </section>
+
+            <div class="flex justify-center mx-auto w-full text-[20px] font-medium text-blue-600"> 
+                <a href="https://drive.google.com/drive/folders/1gd0_DtNLNcxGyWPwBEO0dwMt6BrECtT8?usp=drive_link" target="_blank">Download Formulir</a>
+            </div>
+          </div>
+    </section>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script/script.js">
+        // Ambil elemen tombol dan menu
+const mobileMenuButton = document.getElementById('mobileMenuButton');
+const mobileMenu = document.getElementById('mobileMenu');
+
+// Tambahkan event listener untuk toggle menu saat tombol ditekan
+mobileMenuButton.addEventListener('click', function() {
+    mobileMenu.classList.toggle('hidden');
+});
+    </script>
+</body>
+</html>

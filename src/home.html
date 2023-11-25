@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/outputcss/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Beranda | KPUM Narotama</title>
+</head>
+<body class="bg-primary bg-cover bg-center bg-no-repeat bg-fixed font-poppins px-[20px]" style="background-image: url('../src/img/bg-primary.png');">
+    <nav class="">
+        <div class="flex p-[20px] justify-between">
+            <img src="../src/img/logo_kpum_fix.png" class="w-[190px] h-[79px]" alt="Logo NCC">
+            <button type="button" id="mobileMenuButton" class="flex my-auto" data-collapse-toggle="mobileNavbar" aria-controls="mobileNavbar" aria-expanded="false">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 12H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 6H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 18H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>    
+            </button>
+        </div>
+        <div class="hidden" id="mobileMenu">
+            <ul class="text-gray-700 bg-white rounded-[10px] p-[20px]">
+                <li>
+                  <a href="/src/home.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Beranda</a>
+                </li>
+                <li>
+                  <a href="/src/peraturan.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Surat Peraturan</a>
+                </li>
+                <li>
+                  <a href="/src/keputusan.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Surat Keputusan</a>
+                </li>
+                <li>
+                  <a href="/src/formulir.html" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Formulir Pendaftaran</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class= "text-white text-center my-auto flex flex-col justify-center items-center min-h-screen" data-aos="fade-down" data-aos-duration="800">
+        <div class="font-extrabold lg:text-[80px] text-[40px]">
+            Komisi Pemilihan Umum Mahasiswa
+        </div>
+        <div class="lg:text-[40px] text-[20px] font-semibold">
+            Universitas Narotama
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script/script.js">
+        // Ambil elemen tombol dan menu
+const mobileMenuButton = document.getElementById('mobileMenuButton');
+const mobileMenu = document.getElementById('mobileMenu');
+
+// Tambahkan event listener untuk toggle menu saat tombol ditekan
+mobileMenuButton.addEventListener('click', function() {
+    mobileMenu.classList.toggle('hidden');
+});
+    </script>
+</body>
+</html>
